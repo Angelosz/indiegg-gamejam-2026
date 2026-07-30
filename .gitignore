@@ -1,0 +1,63 @@
+# Visual Studio
+.vs/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.userprefs
+
+# Rider
+.idea/
+
+# XCode
+*.xcodeproj
+*.xcworkspace
+
+# Build products
+Binaries/
+Build/*
+
+# Except Android signing files if you ever add them
+!Build/**/*.keystore
+!Build/**/proguard-project.txt
+
+# Generated files
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Crash reports
+Crashes/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packaging
+*.ipa
+*.apk
+*.aab
+
+# Unreal generated files
+FileOpenOrder/
+
+# Don't ignore these
+!Build/
+!Config/
+!Content/
+!Plugins/
+!Source/
+!*.uproject
+!*.uplugin
+
+# Collections (optional)
+Saved/Collections/
